@@ -1,0 +1,71 @@
+main{
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+.grid-projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* padding-left: 20px; */  
+}
+
+ /* .grid-project-item{
+    border: 1px dashed red;
+} */
+
+.grid-project-item h3{
+    text-align: center;
+    color: #333; 
+    font-size: 1.5em; 
+}
+
+.non-swiper img{
+    width: 100%; 
+    max-width: 85%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.grid-project-item p{
+    text-align:justify;
+    color: #100f0f; 
+    font-size: 1em;
+    line-height: 1.4; 
+    padding-top: 1px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.grid-project-item h4 {
+    text-align:justify;
+    color: #333; 
+    font-size: 1.2em; 
+    padding-left: 30px;
+}
+
+.grid-project-item h4 .unbold {
+    font-weight: normal;
+}
+
+.grid-project-item h5{
+    padding-top: 1px;
+    padding-left: 30px;
+}
+
+.grid-project-item .repo-button button {   
+    margin: 0px 0px 20px 25px;
+    padding: 10px 15px;
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+  
+.grid-project-item .repo-button button:hover {
+    background-color: #0056b3; 
+}

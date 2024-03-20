@@ -1,0 +1,212 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}" />
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@6.0.0/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/swiper.css') }}" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<main class="project-home">
+    <h2>My Personal projects on github</h2>
+    <div class="grid-projects">
+        <div class="grid-project-item">
+            <h3>Project 1</h3>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="{{ url_for('serve_assets', filename='arnold-francisca-f77Bh3inUpE-unsplash.jpg') }}" alt="OO"></div>
+                    <div class="swiper-slide"><img src="{{ url_for('serve_assets', filename='clint-patterson-dYEuFB8KQJk-unsplash.jpg') }}" alt="oo"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                
+            </div>   
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
+                repellendus? Consequatur et vitae veritatis dolorem deserunt
+                quia, dolorum quo velit quaerat est accusantium dignissimos
+                reprehenderit laborum ullam reiciendis delectus sit animi
+                aspernatur iusto ipsa asperiores impedit magni. Molestias,
+                ratione error.</p>
+            <h4><strong>Tech stack used:</strong> <span class="unbold">Python,
+                    Selenium</span></h4>
+            <a href="https://github.com/itsabdullah15" target="_blank" class="repo-button">
+                <button>
+                    Repository
+                    <i class="fa-brands fa-github"></i>
+                </button>
+            </a>
+        </div>
+
+
+
+        <div class="grid-project-item">
+            <h3>Project 2</h3>
+            <div class="non-swiper"><img src="{{ url_for('serve_assets', filename='arnold-francisca-f77Bh3inUpE-unsplash.jpg') }}"
+                alt="Project Image"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
+                repellendus? Consequatur et vitae veritatis dolorem deserunt
+                quia, dolorum quo velit quaerat est accusantium dignissimos
+                reprehenderit laborum ullam reiciendis delectus sit animi
+                aspernatur iusto ipsa asperiores impedit magni. Molestias,
+                ratione error.</p>
+            <h4><strong>Tech stack used:</strong> <span class="unbold">Python,
+                    Selenium</span></h4>
+            <a href="https://github.com/itsabdullah15" target="_blank" class="repo-button">
+                <button>
+                    Repository
+                    <i class="fa-brands fa-github"></i>
+                </button>
+            </a>
+        </div>
+
+        <div class="grid-project-item">
+            <h3>Project 3</h3>
+            <div class="non-swiper"><img src="{{ url_for('serve_assets', filename='arnold-francisca-f77Bh3inUpE-unsplash.jpg') }}"
+                alt="Project Image"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
+                repellendus? Consequatur et vitae veritatis dolorem deserunt
+                quia, dolorum quo velit quaerat est accusantium dignissimos
+                reprehenderit laborum ullam reiciendis delectus sit animi
+                aspernatur iusto ipsa asperiores impedit magni. Molestias,
+                ratione error.</p>
+            <h4><strong>Tech stack used:</strong> <span class="unbold">Python,
+                    Selenium</span></h4>
+            <a href="https://github.com/itsabdullah15" target="_blank" class="repo-button">
+                <button>
+                    Repository
+                    <i class="fa-brands fa-github"></i>
+                </button>
+            </a>
+        </div>
+
+        <div class="grid-project-item">
+            <h3>Project 4</h3>
+            <div class="non-swiper"><img src="{{ url_for('serve_assets', filename='arnold-francisca-f77Bh3inUpE-unsplash.jpg') }}"
+                alt="Project Image"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
+                repellendus? Consequatur et vitae veritatis dolorem deserunt
+                quia, dolorum quo velit quaerat est accusantium dignissimos
+                reprehenderit laborum ullam reiciendis delectus sit animi
+                aspernatur iusto ipsa asperiores impedit magni. Molestias,
+                ratione error.</p>
+            <h4><strong>Tech stack used:</strong> <span class="unbold">Python,
+                    Selenium</span></h4>
+            <a href="https://github.com/itsabdullah15" target="_blank" class="repo-button">
+                <button>
+                    Repository
+                    <i class="fa-brands fa-github"></i>
+                </button>
+            </a>
+        </div>
+
+        <div class="grid-project-item">
+            <h3>Project 5</h3>
+            <div class="non-swiper"><img src="{{ url_for('serve_assets', filename='arnold-francisca-f77Bh3inUpE-unsplash.jpg') }}"
+                alt="Project Image"></div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
+                repellendus? Consequatur et vitae veritatis dolorem deserunt
+                quia, dolorum quo velit quaerat est accusantium dignissimos
+                reprehenderit laborum ullam reiciendis delectus sit animi
+                aspernatur iusto ipsa asperiores impedit magni. Molestias,
+                ratione error.</p>
+            <h4><strong>Tech stack used:</strong> <span class="unbold">Python,
+                    Selenium</span></h4>
+            <a href="https://github.com/itsabdullah15" target="_blank" class="repo-button">
+                <button>
+                    Repository
+                    <i class="fa-brands fa-github"></i>
+                </button>
+            </a>
+        </div>
+
+        <div class="grid-project-item">
+            <h3>Project 6</h3>
+            <div class="non-swiper"><img src="{{ url_for('serve_assets', filename='arnold-francisca-f77Bh3inUpE-unsplash.jpg') }}"
+                alt="Project Image"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
+                repellendus? Consequatur et vitae veritatis dolorem deserunt
+                quia, dolorum quo velit quaerat est accusantium dignissimos
+                reprehenderit laborum ullam reiciendis delectus sit animi
+                aspernatur iusto ipsa asperiores impedit magni. Molestias,
+                ratione error.</p>
+            <h4><strong>Tech stack used:</strong> <span class="unbold">Python,
+                    Selenium</span></h4>
+            <a href="https://github.com/itsabdullah15" target="_blank" class="repo-button">
+                <button>
+                    Repository
+                    <i class="fa-brands fa-github"></i>
+                </button>
+            </a>
+        </div>
+
+        <div class="grid-project-item">
+            <h3>Project 7</h3>
+            <div class="non-swiper"><img src="{{ url_for('serve_assets', filename='arnold-francisca-f77Bh3inUpE-unsplash.jpg') }}"
+                alt="Project Image"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
+                repellendus? Consequatur et vitae veritatis dolorem deserunt
+                quia, dolorum quo velit quaerat est accusantium dignissimos
+                reprehenderit laborum ullam reiciendis delectus sit animi
+                aspernatur iusto ipsa asperiores impedit magni. Molestias,
+                ratione error.</p>
+            <h4><strong>Tech stack used:</strong> <span class="unbold">Python,
+                    Selenium</span></h4>
+            <a href="https://github.com/itsabdullah15" target="_blank" class="repo-button">
+                <button>
+                    Repository
+                    <i class="fa-brands fa-github"></i>
+                </button>
+            </a>
+        </div>
+
+        <div class="grid-project-item">
+            <h3>Project 8</h3>
+            <div class="non-swiper"><img src="{{ url_for('serve_assets', filename='arnold-francisca-f77Bh3inUpE-unsplash.jpg') }}"
+                alt="Project Image"></div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
+                repellendus? Consequatur et vitae veritatis dolorem deserunt
+                quia, dolorum quo velit quaerat est accusantium dignissimos
+                reprehenderit laborum ullam reiciendis delectus sit animi
+                aspernatur iusto ipsa asperiores impedit magni. Molestias,
+                ratione error.</p>
+            <h4><strong>Tech stack used:</strong> <span class="unbold">Python,
+                    Selenium</span></h4>
+            <a href="https://github.com/itsabdullah15" target="_blank" class="repo-button">
+                <button>
+                    Repository
+                    <i class="fa-brands fa-github"></i>
+                </button>
+            </a>
+        </div>
+
+        <div class="grid-project-item">
+            <h3>Project 9</h3>
+            <div class="non-swiper"><img src="{{ url_for('serve_assets', filename='arnold-francisca-f77Bh3inUpE-unsplash.jpg') }}"
+                alt="Project Image"></div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
+                repellendus? Consequatur et vitae veritatis dolorem deserunt
+                quia, dolorum quo velit quaerat est accusantium dignissimos
+                reprehenderit laborum ullam reiciendis delectus sit animi
+                aspernatur iusto ipsa asperiores impedit magni. Molestias,
+                ratione error.</p>
+            <h4><strong>Tech stack used:</strong> <span class="unbold">Python,
+                    Selenium</span></h4>
+            <a href="https://github.com/itsabdullah15" target="_blank" class="repo-button">
+                <button>Repository
+                    <i class="fa-brands fa-github"></i>
+                </button>
+            </a>
+        </div>
+
+    </div>
+
+</main>
+<script src="{{ url_for('static', filename='scriptt/script.js') }}"></script>
+
+{% endblock %}

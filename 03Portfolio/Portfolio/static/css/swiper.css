@@ -1,0 +1,19 @@
+.swiper-slide img{
+  width: 100%; 
+  max-width: 85%;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.swiper-button-next{
+  right: 55px;
+}
+
+.swiper-button-prev{
+  left: 55px;
+}
+
+
+
+

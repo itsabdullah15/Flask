@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Lato, "sans-serif";
+}
+
+body{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.header {
+    text-align: center;
+}
+
+.nav {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #1c2023;
+}
+
+.nav__link:not(:last-of-type){
+    margin-right: 2.5rem;
+}
+
+.nav__link--active,
+.nav__link:hover{
+    color: #ce167b;
+    font-weight: bold;
+}
+
+.main {
+    margin: 0 auto;
+}
+ 
+.main--about {
+    max-width: 550px;
+    padding: 0 1rem;
+    line-height: 150%;
+}
+
+.main--contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a.contact-link {
+padding: 25px;
+margin: 10px;
+text-decoration: none;
+color: #333;
+font-size: 50px;
+transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+color: #ce167b; /* Set the color you want on hover */
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+    background-color: #ffa9a9; /* Add a background color if desired */
+    position: fixed; 
+    bottom: 0px;
+    width: 100%; 
+}
+
+footer p {
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333; /* Set your desired text color */
+    font-size: 0.8em; /* Adjust the font size as needed */
+}
