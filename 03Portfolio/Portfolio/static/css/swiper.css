@@ -1,4 +1,4 @@
-.swiper-slide img{
+ .swiper-slide img{
   width: 100%; 
   max-width: 85%;
   display: block;
@@ -13,7 +13,12 @@
 .swiper-button-prev{
   left: 55px;
 }
+.swiper {
+  width: 600px;
+  height: 300px;
+}
 
+ 
 
 
 
